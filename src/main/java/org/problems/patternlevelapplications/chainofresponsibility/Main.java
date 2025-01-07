@@ -1,4 +1,4 @@
-package org.problems.pattern_level_applications.chainofresponsibility;
+package org.problems.patternlevelapplications.chainofresponsibility;
 
 public class Main {
 
