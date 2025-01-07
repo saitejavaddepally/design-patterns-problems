@@ -11,7 +11,7 @@ public class ElevatorSystem {
         ElevatorController controller = new ElevatorController(elevator);
 
         InternalButton internalButton = new InternalButton(controller);
-        ExternalButton externalButton = new ExternalButton(controller);
+        ExternalButton externalButton = new ExternalButton(controller, new OddDispatchStrategy(controller));
 
         Floor floor1 = new Floor(1, externalButton);
         Floor floor2 = new Floor(2, externalButton);
@@ -23,7 +23,7 @@ public class ElevatorSystem {
         Building building = new Building(floors, controller);
 
         // Simulate pressing buttons
-        floor1.pressButton("UP");
+        floor1.pressButton("UP", 2);
         internalButton.pressButton(2);
         controller.acceptNewReq(1, "DOWN");
     }

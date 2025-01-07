@@ -9,8 +9,8 @@ public class Floor {
         this.button = button;
     }
 
-    public void pressButton(String direction) {
+    public void pressButton(String direction, int destinationFloor) {
         System.out.println("Button pressed on floor " + floorId + " to go " + direction + ".");
-        button.pressButton(direction);
+        button.pressButton(direction, destinationFloor);
     }
 }
