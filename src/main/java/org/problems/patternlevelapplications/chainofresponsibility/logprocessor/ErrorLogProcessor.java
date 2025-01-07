@@ -1,4 +1,4 @@
-package org.problems.patternlevelapplications.chainofresponsibility;
+package org.problems.patternlevelapplications.chainofresponsibility.logprocessor;
 
 public class ErrorLogProcessor extends LogProcessor{
 
