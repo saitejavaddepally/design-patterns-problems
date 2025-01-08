@@ -1,4 +1,4 @@
-package org.problems.patternlevelapplications.decorator;
+package org.problems.patternlevelapplications.decorator.texteditor;
 
 class PlainText implements Text {
     private String text;

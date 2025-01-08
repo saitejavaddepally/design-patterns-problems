@@ -1,4 +1,4 @@
-package org.problems.patternlevelapplications.decorator;
+package org.problems.patternlevelapplications.decorator.texteditor;
 
 class ItalicText extends TextDecorator {
     public ItalicText(Text text) {

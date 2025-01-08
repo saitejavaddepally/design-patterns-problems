@@ -1,4 +1,4 @@
-package org.problems.patternlevelapplications.decorator;
+package org.problems.patternlevelapplications.decorator.texteditor;
 
 public class TextDecoratorDemo {
     public static void main(String[] args) {
